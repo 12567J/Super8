@@ -1,0 +1,205 @@
+{
+    "1": {
+        "concluida": true,
+        "jogos": {
+            "quadra1": {
+                "duplaA": [
+                    "J3",
+                    "J7"
+                ],
+                "duplaB": [
+                    "J1",
+                    "J4"
+                ],
+                "placarA": 4,
+                "placarB": 3
+            },
+            "quadra2": {
+                "duplaA": [
+                    "J6",
+                    "J2"
+                ],
+                "duplaB": [
+                    "J5",
+                    "J8"
+                ],
+                "placarA": 2,
+                "placarB": 6
+            }
+        }
+    },
+    "2": {
+        "concluida": false,
+        "jogos": {
+            "quadra1": {
+                "duplaA": [
+                    "J2",
+                    "J4"
+                ],
+                "duplaB": [
+                    "J8",
+                    "J7"
+                ],
+                "placarA": "",
+                "placarB": ""
+            },
+            "quadra2": {
+                "duplaA": [
+                    "J6",
+                    "J3"
+                ],
+                "duplaB": [
+                    "J5",
+                    "J1"
+                ],
+                "placarA": "",
+                "placarB": ""
+            }
+        }
+    },
+    "3": {
+        "concluida": false,
+        "jogos": {
+            "quadra1": {
+                "duplaA": [
+                    "J1",
+                    "J3"
+                ],
+                "duplaB": [
+                    "J7",
+                    "J2"
+                ],
+                "placarA": "",
+                "placarB": ""
+            },
+            "quadra2": {
+                "duplaA": [
+                    "J4",
+                    "J6"
+                ],
+                "duplaB": [
+                    "J5",
+                    "J8"
+                ],
+                "placarA": "",
+                "placarB": ""
+            }
+        }
+    },
+    "4": {
+        "concluida": false,
+        "jogos": {
+            "quadra1": {
+                "duplaA": [
+                    "J8",
+                    "J2"
+                ],
+                "duplaB": [
+                    "J1",
+                    "J5"
+                ],
+                "placarA": "",
+                "placarB": ""
+            },
+            "quadra2": {
+                "duplaA": [
+                    "J3",
+                    "J4"
+                ],
+                "duplaB": [
+                    "J7",
+                    "J6"
+                ],
+                "placarA": "",
+                "placarB": ""
+            }
+        }
+    },
+    "5": {
+        "concluida": false,
+        "jogos": {
+            "quadra1": {
+                "duplaA": [
+                    "J2",
+                    "J4"
+                ],
+                "duplaB": [
+                    "J6",
+                    "J8"
+                ],
+                "placarA": "",
+                "placarB": ""
+            },
+            "quadra2": {
+                "duplaA": [
+                    "J5",
+                    "J3"
+                ],
+                "duplaB": [
+                    "J7",
+                    "J1"
+                ],
+                "placarA": "",
+                "placarB": ""
+            }
+        }
+    },
+    "6": {
+        "concluida": false,
+        "jogos": {
+            "quadra1": {
+                "duplaA": [
+                    "J2",
+                    "J3"
+                ],
+                "duplaB": [
+                    "J1",
+                    "J4"
+                ],
+                "placarA": "",
+                "placarB": ""
+            },
+            "quadra2": {
+                "duplaA": [
+                    "J8",
+                    "J6"
+                ],
+                "duplaB": [
+                    "J5",
+                    "J7"
+                ],
+                "placarA": "",
+                "placarB": ""
+            }
+        }
+    },
+    "7": {
+        "concluida": false,
+        "jogos": {
+            "quadra1": {
+                "duplaA": [
+                    "J4",
+                    "J8"
+                ],
+                "duplaB": [
+                    "J5",
+                    "J3"
+                ],
+                "placarA": "",
+                "placarB": ""
+            },
+            "quadra2": {
+                "duplaA": [
+                    "J2",
+                    "J6"
+                ],
+                "duplaB": [
+                    "J1",
+                    "J7"
+                ],
+                "placarA": "",
+                "placarB": ""
+            }
+        }
+    }
+}

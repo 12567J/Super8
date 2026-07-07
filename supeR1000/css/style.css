@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #E0FFFF;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 60px;
+}
+
+header {
+    background-color: #FFA500;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+footer {
+    background-color: #DCDCDC;
+    color: #333333;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-top: 1px solid #CCCCCC;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.container-cadastro {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.card {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 6px solid #FFA500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    width: 100%;
+}
+
+.card label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card input[type="text"], 
+.card input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.sucesso-msg {
+    background-color: #00FA9A;
+    color: #333333;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.vencedor-box {
+    background-color: #FFA500;
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    background-color: #00FA9A;
+    color: #333333;
+    border: none;
+    padding: 15px;
+    margin: 12px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-voltar {
+    background-color: #DCDCDC;
+}
+
+.btn-perigo {
+    background-color: #FF4D4D;
+    color: #FFFFFF;
+}
+
+.rodada-container {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #DCDCDC;
+    width: 100%;
+    max-width: 500px;
+}
+
+.jogo {
+    margin: 15px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #CCCCCC;
+}
+
+.jogo:last-child {
+    border-bottom: none;
+}
+
+.placar-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.placar-input span {
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.placar-input input {
+    width: 70px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
+
+table th, table td {
+    border: 1px solid #DCDCDC;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #FFA500;
+    color: #FFFFFF;
+}
+
+table tr:nth-child(even) {
+    background-color: #F9F9F9;
+}
+
+@media (max-width: 900px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}
